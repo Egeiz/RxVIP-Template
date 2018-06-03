@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>ModuleName</string>
+			<key>Description</key>
+			<string>This is the description of the option.</string>
+			<key>Identifier</key>
+			<string>moduleNameIdentifier</string>
+			<key>Name</key>
+			<string>Please enter the name of the RxVIP scene:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameIdentifier___ViewController</string>
+			<key>Identifier</key>
+			<string>optionIdentifierForStaticText</string>
+			<key>Name</key>
+			<string>Name of the ViewController:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameIdentifier___Interactor</string>
+			<key>Identifier</key>
+			<string>optionIdentifierForStaticText</string>
+			<key>Name</key>
+			<string>Name of the Interactor:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameIdentifier___Presenter</string>
+			<key>Identifier</key>
+			<string>optionIdentifierForStaticText</string>
+			<key>Name</key>
+			<string>Name of the Presenter:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameIdentifier___Router</string>
+			<key>Identifier</key>
+			<string>optionIdentifierForStaticText</string>
+			<key>Name</key>
+			<string>Name of the Router:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameIdentifier___Scene</string>
+			<key>Identifier</key>
+			<string>optionIdentifierForStaticText</string>
+			<key>Name</key>
+			<string>Name of the Scene</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>View type:</string>
+			<key>Description</key>
+			<string>The type of view to use</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Storyboard</string>
+			<key>Values</key>
+			<array>
+				<string>Storyboard</string>
+				<string>XIB file</string>
+				<string>Code</string>
+			</array>
+		</dict>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Creates a RxVIP scene with ViewController, Interactor, Presenter, Router, ViewModel and Scene item</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<string>5</string>
+</dict>
+</plist>
